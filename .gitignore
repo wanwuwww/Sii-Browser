@@ -1,0 +1,39 @@
+*.zip
+
+# Sii 工程构建产物
+local.properties
+keystore/
+.gradle/
+build/
+*.apk
+*.aab
+*.zip
+.kotlin/
+
+/art/
+/Sii-debug.apk
+/.aicode/attachments/
+
+# 发布分支不包含开发规则、记忆与原型文件
+/AGENTS.md
+/.aicode/
+/design/
+
+# 源码备份目录
+/sii-source-*/
+
+# 本地交接与状态，不进入发布仓库
+/STATUS.md
+/scripts/
+
+# 界面风格预设参数（本地参考）
+/界面风格预设/
+
+# 工作区归档包与本地环境标识
+*.tar.gz
+/.operit/
+
+# 防止临时调试文件与本地环境注入文件再次进入仓库
+*.append
+/Dl.java
+/art/
